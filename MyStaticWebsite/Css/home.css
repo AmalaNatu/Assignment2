@@ -1,0 +1,35 @@
+
+*{
+  box-sizing: border-box;
+}
+.column{
+float: left;
+padding: 10px;
+height: 500px;
+font-size: 1.1em;
+}
+.left, .right{
+width: 25% ;
+background-color: #D3D3D3;
+}
+.middle{
+width: 50% ;
+height:80%;
+}
+.row:after{
+content: "";
+  display: table;
+  clear: both;}
+
+.right{
+font-size: 1.2em;
+}
+.footer {
+position: fixed;
+bottom: 0;
+top: 93%;
+width: 100%;
+background-color: #dbe9f4;
+color: black;
+text-align: center;
+}

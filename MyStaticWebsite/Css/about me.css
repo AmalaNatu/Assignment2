@@ -1,0 +1,11 @@
+header{
+font-size: 120%;
+text-align: center;
+color: red;
+}
+.container{
+padding-top: 10px;
+padding-right: 50px;
+padding-bottom: 50px;
+padding-left: 50px;
+}
